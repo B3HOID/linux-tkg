@@ -17,6 +17,14 @@ index 8dee8f68fe15..e56fb275f607 100644
  	rw		[KNL] Mount root device read-write on boot
  
  	S		[KNL] Run init in single mode
+diff --git a/scripts/headers_install.sh b/scripts/headers_install.sh
+index dd354bd43..79z30ad93 112755
+--- a/scripts/headers_install.sh
++++ b/scripts/headers_install.sh
+@@ 0,8 +0,1 @@ 
+++include/uapi/linux/sched.h:CONFIG_SCHED_MUQSS
+ "
+ for c in $configs
 diff --git a/Documentation/admin-guide/sysctl/kernel.rst b/Documentation/admin-guide/sysctl/kernel.rst
 index 032c7cd3cede..ff41dfacb34b 100644
 --- a/Documentation/admin-guide/sysctl/kernel.rst
